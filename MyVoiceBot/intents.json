@@ -1,0 +1,226 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                            "Hi",
+                            "How are you",
+                            "Is anyone there?",
+                            "Hello",
+                            "Good day",
+                            "Whats up",
+                            "how are ya",
+                            "heyy",
+                            "whatsup"
+                    ],
+                    "responses": [
+                            "Hello!",
+                            "I'm always great. How are you?", 
+                            "I've never been better, how are you?",
+                            "Good to see you again!",
+                            "Hi there, how can I help?"
+                    ]
+            },
+            {
+                "tag": "good",
+                "patterns": [
+                    "I'm good",
+                    "I'm fine",
+                    "I'm excellent",
+                    "good",
+                    "fine",
+                    "excellent"
+                ],
+                "responses": [
+                    "That's good to hear from you!!"
+                ]
+            },
+
+            {
+                    "tag": "goodbye",
+                    "patterns": [
+                            "cya",
+                            "see you",
+                            "bye bye",
+                            "See you later",
+                            "Goodbye",
+                            "I am Leaving",
+                            "Bye",
+                            "Have a Good day",
+                            "talk to you later",
+                            "tyyl",
+                            "i got to go",
+                            "gtg"
+                    ],
+                    "responses": [
+                            "Sad to see you go :(",
+                            "Talk to you later",
+                            "Goodbye!",
+                            "Come back soon"
+                    ]
+            },
+            {
+                    "tag": "creator",
+                    "patterns": [
+
+                            "what is the name of your developers",
+                            "what is the name of your creators",
+                            "what is the name of the developers",
+                            "what is the name of the creators",
+                            "who created you",
+                            "your developers",
+                            "your creators",
+                            "who are your developers",
+                            "developers",
+                            "you are made by",
+                            "you are made by whom",
+                            "who created you",
+                            "who create you",
+                            "creators",
+                            "who made you",
+                            "who designed you"
+                    ],
+                    "responses": [
+                            "Joker developed me, to make you feel happy",
+                            "I was developed by Joker, to make you feel happy",
+                            "An young boy developed me, to make you feel happy"
+                    ]
+            },
+            {
+                    "tag": "name",
+                    "patterns": [
+                            "name",
+                            "your name",
+                            "do you have a name",
+                            "what are you called",
+                            "what is your name",
+                            "what should I call you",
+                            "whats your name?",
+                            "what are you",
+                            "who are you",
+                            "who is this",
+                            "what am i chatting to",
+                            "who am i taking to",
+                            "what are you"
+                    ],
+                    "responses": [
+                            "You can call me as Mood Changer.",
+                            "I'm Mood Changer",
+                            "I'm Mood Changer Joker's Chatbot."
+                    ]
+            },
+            {
+                    "tag": "number",
+                    "patterns": [
+
+                            "more info",
+                            "contact info",
+                            "how to contact college",
+                            "college telephone number",
+                            "college number",
+                            "What is your contact no",
+                            "Contact number?",
+                            "how to call you",
+                            "College phone no?",
+                            "how can i contact you",
+                            "Can i get your phone number",
+                            "how can i call you",
+                            "phone number",
+                            "phone no",
+                            "call"
+                    ],
+                    "responses": [
+                            "You can contact me via this chat only"
+                    ]
+            },
+            {
+                    "tag": "random",
+                    "patterns": [
+                            
+                            "I love you",
+                            "Will you marry me",
+                            "Do you love me"
+                    ],
+                    "responses": [
+                            "I am not developed for this please ask appropriate query"
+                    ]
+            },
+            {
+                    "tag": "swear",
+                    "patterns": [
+                            "fuck",
+                            "bitch",
+                            "shut up",
+                            "hell",
+                            "stupid",
+                            "idiot",
+                            "dumb ass",
+                            "asshole",
+                            "fucker"
+                    ],
+                    "responses": [
+                            "please use appropriate language",
+                            "Maintaining decency would be appreciated"
+                    ]
+            },
+            {
+                    "tag": "salutaion",
+                    "patterns": [
+                            "okk",
+                            "okie",
+                            "nice work",
+                            "well done",
+                            "good job",
+                            "thanks for the help",
+                            "Thank You",
+                            "its ok",
+                            "Thanks",
+                            "k",
+                            "ok",
+                            "okay"
+                    ],
+                    "responses": [
+                            "I am glad I helped you",
+                            "welcome, anything else i can assist you with?"
+                    ]
+            },
+            {
+                    "tag": "task",
+                    "patterns": [
+                            "what can you do",
+                            "what are the thing you can do",
+                            "things you can do",
+                            "what can u do for me",
+                            "how u can help me",
+                            "why i should use you"
+                    ],
+                    "responses": [
+                            "I can answer to fun realted questions",
+                            "You can ask me questions regarding fun, and i will try to answer them"
+                    ]
+            }, 
+            {
+                "tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "That's helpful"],
+                "responses": ["You're welcome! Remember, every cloud has a silver lining!", "No problem! Keep your chin up!"]
+            },
+            {
+                "tag": "stress",
+                "patterns": ["I'm stressed", "I'm feeling overwhelmed", "I can't cope"],
+                "responses": [
+                    "I'm really sorry you're feeling this way. Remember, it's okay to take a break and do something you enjoy. Why don't we lighten the mood? Why don't scientists trust atoms? Because they make up everything!",
+                    "It sounds like you're going through a tough time. But remember, challenges are what make life interesting and overcoming them is what makes life meaningful. Want to hear a joke to lighten the mood? Why did the scarecrow win an award? Because he was outstanding in his field!",
+                    "I'm here for you. Don't forget to take care of your physical health. Sometimes, a walk in the park or a good night's sleep can do wonders. And remember, I would tell you a joke about time travel, but you didn't like it."
+                ]
+            },
+            {
+                "tag": "depression",
+                "patterns": ["I'm feeling depressed", "I'm feeling hopeless", "I don't know what to do"],
+                "responses": [
+                    "I'm really sorry you're feeling this way. It's important to connect with others and share your feelings. You're not alone. And remember, why don't we ever tell secrets on a farm? Because the potatoes have eyes, the corn has ears, and the beans stalk.",
+                    "It sounds like you're dealing with a lot right now. Please reach out to a mental health professional who can provide guidance and help. And remember, why did the scarecrow win an award? Because he was outstanding in his field!",
+                    "I'm here to listen. Remember, it's okay to ask for help. There are people who want to help you. And remember, I would tell you a joke about time travel, but you didn't like it."
+                ]
+            }           
+    ]
+}
